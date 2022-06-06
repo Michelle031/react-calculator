@@ -13,7 +13,7 @@ const Calculator = styled.div`
   height: auto;
   position: fixed;
   left: 40%;
-  top: 4%;
+  top: 5%;
   border-radius: 10px;
   background: ${(props) => props.theme.mainBg};
   padding: 20px;
