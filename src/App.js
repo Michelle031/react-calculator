@@ -18,6 +18,11 @@ const Calculator = styled.div`
   background: ${(props) => props.theme.mainBg};
   padding: 20px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  @media screen and (max-width: 960px) {
+    width: 70%;
+    left: 10%;
+  }
   
   `;
 const Nav = styled.div`
